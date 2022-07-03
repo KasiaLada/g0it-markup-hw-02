@@ -1,1 +1,51 @@
-a {text-decoration: none}
+a {color: #2196F3;
+text-decoration: none;
+font-size: 26px;
+text-decoration: none;}
+
+.links a {color: #212121;
+font-size: 14px;
+text-decoration: none;}
+
+.permalink:focus {color: #2196F3}
+.permalink:hover {
+    color: #2196F3
+}
+.contact a {color:#757575;
+text-decoration: none;
+font-size: 14px;}
+
+body{color: #212121;
+font-size: 16px}
+
+.main {background-color: #2F303A;}
+.tittle {font-size: 44px;
+color: #FFFFFF;
+text-align: center;}
+
+button {border-radius: 4px;
+background-color: #2196F3}
+
+.description ul {font-size: 14px}
+
+p {color: #757575;
+font-size: 16px}
+
+h2 {font-size: 36px;
+text-align: center;}
+
+footer {font-size: 14px;
+color: #757575;
+background: #2F303A}
+
+address {color: #FFFFFF;;}
+
+.hand {cursor: hand;}
+
+figcaption {font-size: 18px}
+
+.click {cursor: pointer;
+background-color: #F5F4FA;
+}
+
+.click:hover{background-color: #2196F3}
