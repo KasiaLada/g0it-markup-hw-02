@@ -1,51 +1,103 @@
-a {color: #2196F3;
-text-decoration: none;
-font-size: 26px;
-text-decoration: none;}
 
-.links a {color: #212121;
+.links a {
+    font-family: 'Roboto';
+        font-weight: 500;
+    color: #212121;
 font-size: 14px;
-text-decoration: none;}
+text-decoration: none;
+line-height: 1.1;
+    letter-spacing: 0.02em;
+}
 
 .permalink:focus {color: #2196F3}
 .permalink:hover {
     color: #2196F3
 }
-.contact a {color:#757575;
+.contact a {
+    font-family: 'Roboto';
+        font-weight: 500;
+    color:#757575;
 text-decoration: none;
 font-size: 14px;}
 
 body{color: #212121;
-font-size: 16px}
+font-size: 16px;
+font-weight: 700;
+font-family: 'Roboto', 'Finlandica';}
 
 .main {background-color: #2F303A;}
-.tittle {font-size: 44px;
+.tittle {
+    font-size: 44px;
 color: #FFFFFF;
-text-align: center;}
+text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase}
 
-button {border-radius: 4px;
-background-color: #2196F3}
+button {
+    border: radius 4px;;
+background-color: #2196F3;
+color:#212121;
+}
 
-.description ul {font-size: 14px}
+.description {
+    font-size: 14px;
+line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
 
-p {color: #757575;
-font-size: 16px}
+p {
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.03em;
+line-height: 1.5;
+letter-spacing: 0.03em;
+text-transform:none}
 
-h2 {font-size: 36px;
-text-align: center;}
+h2 {
+    font-size: 36px;
+line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;}
 
 footer {font-size: 14px;
 color: #757575;
 background: #2F303A}
 
-address {color: #FFFFFF;;}
+address {
+font-family: 'Roboto';
+font-size: 14px;
+color: #FFFFFF;
+line-height: 1.7;
+    letter-spacing: 0.03em;}
 
 .hand {cursor: hand;}
 
-figcaption {font-size: 18px}
+figcaption {
+        font-weight: 500;
+    font-size: 18px;
+line-height: 2;
+    letter-spacing: 0.03em;}
 
-.click {cursor: pointer;
+.click {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.03em;
 background-color: #F5F4FA;
 }
 
-.click:hover{background-color: #2196F3}
+.click:hover{background-color: #2196F3;
+color: #FFFFFF}
+
+.logo {font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+}
+
+.color {color:#FFFFFF}
+span {color:#000000}
