@@ -1,6 +1,6 @@
 
 .links a {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-weight: 500;
     color: #212121;
 font-size: 14px;
@@ -14,7 +14,7 @@ line-height: 1.1;
     color: #2196F3
 }
 .contact a {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-weight: 500;
     color:#757575;
 text-decoration: none;
@@ -22,30 +22,36 @@ font-size: 14px;}
 
 body{color: #212121;
 font-size: 16px;
-font-weight: 700;
-font-family: 'Roboto', 'Finlandica';}
+font-family: "Roboto", "Raleway", sans-serif;}
 
 .main {background-color: #2F303A;}
-.tittle {
+.tittle {font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
     font-size: 44px;
-color: #FFFFFF;
-text-align: center;
+    line-height: 60px;
+    text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase}
+    text-transform: uppercase;
 
-button {
-    border: radius 4px;;
-background-color: #2196F3;
-color:#212121;
-}
+    color: #FFFFFF;}
 
+.poem{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;}
+    
 .description {
     font-size: 14px;
 line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
-p {
+.about {font-family: 'Roboto', sans-serif;
     color: #757575;
 font-size: 16px;
 font-weight: 400;
@@ -54,27 +60,28 @@ line-height: 1.5;
 letter-spacing: 0.03em;
 text-transform:none}
 
-h2 {
+.section {
     font-size: 36px;
 line-height: 1.1;
     text-align: center;
     letter-spacing: 0.03em;}
 
-footer {font-size: 14px;
+.end {font-size: 14px;
 color: #757575;
 background: #2F303A}
 
-address {
-font-family: 'Roboto';
-font-size: 14px;
-font-style: normal;
-color: #FFFFFF;
-line-height: 1.7;
-    letter-spacing: 0.03em;}
+.contact {
+font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;}
 
-.hand {cursor: hand;}
+.hand {cursor: pointer;}
 
-figcaption {
+.name {
         font-weight: 500;
     font-size: 18px;
 line-height: 2;
@@ -92,13 +99,36 @@ background-color: #F5F4FA;
 .click:hover{background-color: #2196F3;
 color: #FFFFFF}
 
-.logo {font-family: 'Raleway';
+.logo {font-family: 'Raleway',sans-serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-decoration: none;
-
 }
 
 .color {color:#FFFFFF}
-span {color:#000000}
+.studio {color:#000000}
+
+.service{font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+            border: radius 4px;
+            background-color: #2196F3;
+        }
+.element{font-family: 'Raleway',
+    sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}        
