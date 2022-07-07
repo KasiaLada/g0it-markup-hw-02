@@ -1,6 +1,5 @@
 
 .links a {
-    font-family: 'Roboto', sans-serif;
         font-weight: 500;
     color: #212121;
 font-size: 14px;
@@ -14,7 +13,6 @@ line-height: 1.1;
     color: #2196F3
 }
 .contact a {
-    font-family: 'Roboto', sans-serif;
         font-weight: 500;
     color:#757575;
 text-decoration: none;
@@ -25,19 +23,16 @@ font-size: 16px;
 font-family: "Roboto", "Raleway", sans-serif;}
 
 .main {background-color: #2F303A;}
-.tittle {font-family: 'Roboto', sans-serif;
-    font-style: normal;
+.tittle {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: #FFFFFF;}
 
-.poem{font-family: 'Roboto';
-    font-style: normal;
+.poem{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -46,15 +41,11 @@ font-family: "Roboto", "Raleway", sans-serif;}
     color: #212121;}
     
 .description {
-    font-size: 14px;
-line-height: 1.5;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;}
+list-style: none;}
 
-.about {font-family: 'Roboto', sans-serif;
+.about {
     color: #757575;
 font-size: 16px;
-font-weight: 400;
 letter-spacing: 0.03em;
 line-height: 1.5;
 letter-spacing: 0.03em;
@@ -67,13 +58,11 @@ line-height: 1.1;
     letter-spacing: 0.03em;}
 
 .end {font-size: 14px;
-color: #757575;
-background: #2F303A}
+color:rgba(255, 255, 255, 0.6);
+background: #2F303A;}
 
 .contact {
-font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -97,21 +86,14 @@ background-color: #F5F4FA;
 }
 
 .click:hover{background-color: #2196F3;
-color: #FFFFFF}
-
-.logo {font-family: 'Raleway',sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+color: #FFFFFF;
+cursor: pointer;
 }
 
 .color {color:#FFFFFF}
 .studio {color:#000000}
 
-.service{font-family: 'Roboto', sans-serif;
-    font-style: normal;
+.service{
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -120,15 +102,17 @@ color: #FFFFFF}
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-            border: radius 4px;
-            background-color: #2196F3;
+    border: radius 4px;
+    background-color: #2196F3;
+    cursor: pointer;
         }
-.element{font-family: 'Raleway',
-    sans-serif;
-    font-style: normal;
+        
+.logo {
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: #2196F3;
-}        
+}
